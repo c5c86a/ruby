@@ -103,13 +103,6 @@ module GraphIO
         end        
       end
     end
-    def str
-      result = ""
-      @vertices.each do |vertex|
-        result += "#{vertex.to_s}\n"
-      end
-      return result
-    end
     def get_array_as_string()
       # @return multiline str for stdout
       result = "Start of Maze -------\n"
