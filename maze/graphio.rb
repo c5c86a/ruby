@@ -2,6 +2,11 @@ require 'set'
 require 'byebug'
 require "minitest/autorun"
 
+require 'simplecov'
+SimpleCov.start
+require 'codecov'
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
+
 module GraphIO
   # Currently the module has error handling as regards the input format
 

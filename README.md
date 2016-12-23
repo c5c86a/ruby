@@ -1,3 +1,5 @@
+[![Travis build status](https://travis-ci.org/nicosmaris/demos.png?branch=master)](https://travis-ci.org/nicosmaris/demos) [![codecov.io](http://codecov.io/github/nicosmaris/demos/coverage.svg?branch=master)](https://codecov.io/gh/nicosmaris/demos/branch/master) 
+
 Demonstration of an algorithm in ruby that finds all solutions in a 2D maze.
 
 It is required to “discover” the route progressively, being only able to inspect and move to any squares that are North, South, East and West from its current position.
