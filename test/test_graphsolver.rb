@@ -10,7 +10,7 @@ require 'graphsolver'
 
   class TestMazeSolver < Minitest::Test  
     def test_right
-      g = GraphIO::Maze.new('maze/right.txt')
+      g = GraphIO::Maze.new('test/data/right.txt')
       solver = GraphSolver::MazeSolver.new()
       solutions = solver.bfs(g)
       assert solutions.length==1, solutions.length
@@ -22,7 +22,7 @@ require 'graphsolver'
     end
     
     def test_right_left
-      g = GraphIO::Maze.new('maze/right-left.txt')
+      g = GraphIO::Maze.new('test/data/right-left.txt')
       solver = GraphSolver::MazeSolver.new()
       solutions = solver.bfs(g)
       assert solutions.length==1, solutions.length
@@ -34,7 +34,7 @@ require 'graphsolver'
     end
     
     def test_up
-      g = GraphIO::Maze.new('maze/up.txt')
+      g = GraphIO::Maze.new('test/data/up.txt')
       solver = GraphSolver::MazeSolver.new()
       solutions = solver.bfs(g)
       assert solutions.length==1, solutions.length

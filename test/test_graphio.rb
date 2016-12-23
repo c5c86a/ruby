@@ -9,7 +9,7 @@ require 'graphio'
 
   class TestMaze < Minitest::Test  
     def test_input_is_parsable
-      @g = Maze.new('maze/right.txt')
+      @g = Maze.new('test/data/right.txt')
       assert @g.start.obj.x==1
       assert @g.start.obj.y==2
       assert @g.goal.obj.x==1
@@ -17,7 +17,7 @@ require 'graphio'
     end
 
     def test_initial_output_string
-      @g = Maze.new('maze/right.txt')
+      @g = Maze.new('test/data/right.txt')
       s = @g.get_array_as_string()            # to be displayed at terminal
       assert_equal s, """Start of Maze -------
 ######

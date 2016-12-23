@@ -8,7 +8,7 @@ It is required to “discover” the route progressively, being only able to ins
 
 At the folder of the Gemfile, run:
 
-ruby maze/sample.rb
+ruby lib/sample.rb
 
 ## Input file format
 
