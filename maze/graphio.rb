@@ -1,5 +1,4 @@
 require 'set'
-require 'byebug'
 require "minitest/autorun"
 
 require 'simplecov'
