@@ -1,8 +1,8 @@
 require 'rake/testtask'
 
 Rake::TestTask.new do |t|
-  t.libs << "maze"
-  t.test_files = FileList['maze/*.rb']
+  t.libs << "lib" << "test"
+  t.test_files = FileList['test/test*.rb']
   t.verbose = true
 end
 
