@@ -1,8 +1,4 @@
-require "minitest/autorun"
 require 'enablecov'
-
-require 'graphio'
-require 'graphsolver'
 
   class TestMazeSolver < Minitest::Test  
     def test_right

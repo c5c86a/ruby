@@ -8,7 +8,7 @@ It is required to “discover” the route progressively, being only able to ins
 
 At the folder of the Gemfile, run:
 
-ruby lib/sample.rb
+ruby sample.rb
 
 ## Input file format
 

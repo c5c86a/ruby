@@ -1,4 +1,4 @@
-require_relative 'graphsolver'
+require_relative 'lib/graphsolver'
 
 
 g = GraphIO::Maze.new('sample_input.txt')

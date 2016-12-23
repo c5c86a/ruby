@@ -1,7 +1,4 @@
-require "minitest/autorun"
 require 'enablecov'
-
-require 'graphio'
 
   class TestMaze < Minitest::Test  
     def test_input_is_parsable
