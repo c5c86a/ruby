@@ -28,7 +28,7 @@ rake test
 * Ubuntu 16.04
 * Ruby MRI at folder ~/.rubies/2.3.1 installed [manually](http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you/)
 
-
+```bash
 sudo apt-get install -y build-essential
 
 wget -O ruby-install-0.6.0.tar.gz   https://github.com/postmodern/ruby-install/archive/v0.6.0.tar.gz
@@ -55,4 +55,4 @@ echo '2.3.1' > ~/.ruby-version
 
 gem install bundler
 bundle
-
+```
